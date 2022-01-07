@@ -1,0 +1,23 @@
+{
+    "name": "invanilla/energy-scraper",
+    "description": "Scraping data about energy from governmental sites",
+    "type": "project",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Invanilla\\EnergyScraper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rudolfs Heimanis",
+            "email": "rudolfs@invanilla.lv"
+        }
+    ],
+    "require": {
+        "fabpot/goutte": "^4.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.21"
+    }
+}
